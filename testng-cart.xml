@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Medicare Cart Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="com.healthcare.automation.utils.ExtentTestListener"/>
+    </listeners>
+
+    <test name="Sequential Cart Tests">
+        <classes>
+            <class name="com.healthcare.automation.tests.CartTest"/>
+        </classes>
+    </test>
+
+</suite>

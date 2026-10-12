@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Medicare Automation Suite" verbose="1">
+
+
+	<listeners>
+		<listener
+			class-name="com.healthcare.automation.utils.ExtentTestListener" />
+	</listeners>
+
+	<test name="Medicare UI Tests">
+		<classes>
+			<class name="com.healthcare.automation.tests.SignupTest" />
+			<class name="com.healthcare.automation.tests.LoginTest" />
+			<class name="com.healthcare.automation.tests.CartTest" />
+			<class name="com.healthcare.automation.api.ProductApiTest" />
+		</classes>
+	</test>
+
+</suite>
