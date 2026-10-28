@@ -7,7 +7,7 @@
        verbose="1">
 
     <listeners>
-        <listener class-name="com.healthcare.automation.utils.ExtentTestListener"/>
+        <listener class-name="com.healthcare.automation.utilities.ExtentTestListener"/>
     </listeners>
 
     <test name="Parallel UI and API Tests">

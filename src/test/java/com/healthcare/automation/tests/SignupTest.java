@@ -1,11 +1,11 @@
 package com.healthcare.automation.tests;
-import com.healthcare.automation.utils.ExtentTestListener;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.healthcare.automation.base.BaseTest;
 import com.healthcare.automation.data.SignupDataProvider;
 import com.healthcare.automation.pages.SignupPage;
+import com.healthcare.automation.utilities.ExtentTestListener;
 
 public class SignupTest extends BaseTest {
 

@@ -1,6 +1,5 @@
 
 package com.healthcare.automation.tests;
-import com.healthcare.automation.utils.ExtentTestListener;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,6 +7,7 @@ import com.healthcare.automation.base.BaseTest;
 import com.healthcare.automation.data.LoginDataProvider;
 import com.healthcare.automation.pages.LoginPage;
 import com.healthcare.automation.pages.ProductPage;
+import com.healthcare.automation.utilities.ExtentTestListener;
 
 public class CartTest extends BaseTest {
 

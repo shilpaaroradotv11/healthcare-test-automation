@@ -1,5 +1,5 @@
 
-package com.healthcare.automation.utils;
+package com.healthcare.automation.utilities;
 
 import org.testng.ITestListener;
 import org.testng.ITestResult;

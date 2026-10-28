@@ -1,11 +1,11 @@
 package com.healthcare.automation.api;
-import com.healthcare.automation.utils.ExtentTestListener;
-
 import static io.restassured.RestAssured.given;
 
 import static org.hamcrest.Matchers.containsString;
 
 import org.testng.annotations.Test;
+
+import com.healthcare.automation.utilities.ExtentTestListener;
 
 public class ProductApiTest {
 

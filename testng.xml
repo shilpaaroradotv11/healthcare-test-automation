@@ -6,10 +6,10 @@
 
 	<listeners>
 		<listener
-			class-name="com.healthcare.automation.utils.ExtentTestListener" />
+			class-name="com.healthcare.automation.utilities.ExtentTestListener" />
 	</listeners>
 
-	<test name="Medicare UI Tests">
+	<test name="Medicare UI and API Tests">
 		<classes>
 			<class name="com.healthcare.automation.tests.SignupTest" />
 			<class name="com.healthcare.automation.tests.LoginTest" />

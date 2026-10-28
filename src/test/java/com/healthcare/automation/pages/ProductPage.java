@@ -3,7 +3,7 @@ package com.healthcare.automation.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import com.healthcare.automation.utils.WaitUtils;
+import com.healthcare.automation.utilities.WaitUtils;
 
 public class ProductPage {
 
